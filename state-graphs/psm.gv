@@ -1,0 +1,10 @@
+digraph PlayerState {
+    Idle -> { Walking, BlockingH, BlockingL, Hitstun, Jumping, Attacking }
+    Walking ->{ Idle, BlockingH, BlockingL, Hitstun, Jumping, Attacking }
+    { BlockingL, BlockingH } -> { Idle, Blockstun, Hitstun, Jumping, Attacking }
+    Blockstun -> Idle
+    Hitstun -> Idle, KnockedDown
+    Jumping -> { Attacking, Hitstun }
+    Attacking -> Idle
+    KnockedDown -> { Attacking, Idle }
+  }

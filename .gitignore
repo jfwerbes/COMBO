@@ -19,6 +19,7 @@ mono_crash.*.json
 
 # Ignore assets/sprites
 *.png
+*.png.import
 *.jpg
 *.svg
 sprites/*
