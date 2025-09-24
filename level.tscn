@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://tvptfc5bqc6m"]
+[gd_scene load_steps=5 format=4 uid="uid://bpot235g3dhh5"]
 
 [ext_resource type="Texture2D" uid="uid://cw5pvdcvm23o6" path="res://sprites/tutorial_assets/Streets of Fight files/Assets/Stage Layers/tileset.png" id="1_wtcfe"]
 [ext_resource type="PackedScene" uid="uid://bfmel6e00cw2c" path="res://player.tscn" id="2_0e48y"]
