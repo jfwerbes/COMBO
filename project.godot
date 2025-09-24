@@ -11,5 +11,20 @@ config_version=5
 [application]
 
 config/name="COMBO"
+run/main_scene="uid://tvptfc5bqc6m"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[layer_names]
+
+2d_physics/layer_1="Stage"
+2d_physics/layer_2="Player"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
