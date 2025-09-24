@@ -96,17 +96,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_unmcv"]
-size = Vector2(58, 145)
+size = Vector2(33, 70.5)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_5tmop")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
-position = Vector2(47, 127.000046)
-scale = Vector2(1.2931035, 1.4132075)
+position = Vector2(58, 185.00002)
+scale = Vector2(0.6047414, 0.6759435)
 sprite_frames = SubResource("SpriteFrames_ms8fj")
 animation = &"Walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(46, 167)
+position = Vector2(58.5, 204.25)
 shape = SubResource("RectangleShape2D_unmcv")
