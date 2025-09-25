@@ -1,7 +1,7 @@
 [gd_scene load_steps=29 format=3 uid="uid://1lrrv1tn0eht"]
 
 [ext_resource type="Texture2D" uid="uid://bjl8efenajvqe" path="res://sprites/18273.png" id="1_2dyae"]
-[ext_resource type="Script" uid="uid://citc6gcptefr0" path="res://player.gd" id="1_5tmop"]
+[ext_resource type="Script" uid="uid://citc6gcptefr0" path="res://Player/player.gd" id="1_5tmop"]
 [ext_resource type="Texture2D" uid="uid://cpq3kegmtl8s5" path="res://sprites/18274.png" id="2_2u5n8"]
 [ext_resource type="Texture2D" uid="uid://8w6pipvyrsbd" path="res://sprites/18275.png" id="3_73nau"]
 [ext_resource type="Texture2D" uid="uid://0sts4mj4s3k8" path="res://sprites/18276.png" id="4_skrk8"]
@@ -21,8 +21,8 @@
 [ext_resource type="Texture2D" uid="uid://ju6u7bds4vgy" path="res://sprites/18295.png" id="18_61y8d"]
 [ext_resource type="Texture2D" uid="uid://0j3usw7kji8d" path="res://sprites/18296.png" id="19_8icv6"]
 [ext_resource type="Texture2D" uid="uid://da6vuqjykg4ye" path="res://sprites/18297.png" id="20_mwn6v"]
-[ext_resource type="Script" uid="uid://b8d6ys0dk4lgu" path="res://state_machine.gd" id="22_7ahtn"]
-[ext_resource type="Script" uid="uid://b7gd0xlxiiwom" path="res://idle.gd" id="23_7lmhl"]
+[ext_resource type="Script" uid="uid://b8d6ys0dk4lgu" path="res://State Machine/state_machine.gd" id="22_7ahtn"]
+[ext_resource type="Script" uid="uid://b7gd0xlxiiwom" path="res://Player/idle.gd" id="23_7lmhl"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ms8fj"]
 animations = [{
