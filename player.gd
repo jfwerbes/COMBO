@@ -1,7 +1,7 @@
 class_name Player
 extends CharacterBody2D
 
-@onready var state_machine: StateMachine = $"State Machine"
+@onready var state_machine: StateMachine = $"StateMachine"
 @onready var animation: AnimationPlayer = $Animation
 
 func _ready(): state_machine.init()
