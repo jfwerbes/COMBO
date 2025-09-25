@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=4 uid="uid://bpot235g3dhh5"]
 
 [ext_resource type="Texture2D" uid="uid://cw5pvdcvm23o6" path="res://sprites/tutorial_assets/Streets of Fight files/Assets/Stage Layers/tileset.png" id="1_jytor"]
-[ext_resource type="PackedScene" uid="uid://1lrrv1tn0eht" path="res://Player/player.tscn" id="2_wwqed"]
+[ext_resource type="PackedScene" uid="uid://1lrrv1tn0eht" path="res://player/player.tscn" id="2_wwqed"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_jytor")
