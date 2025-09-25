@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://1lrrv1tn0eht"]
+[gd_scene load_steps=25 format=3 uid="uid://1lrrv1tn0eht"]
 
 [ext_resource type="Texture2D" uid="uid://bjl8efenajvqe" path="res://sprites/18273.png" id="1_2dyae"]
 [ext_resource type="Script" uid="uid://citc6gcptefr0" path="res://player.gd" id="1_5tmop"]
@@ -21,6 +21,7 @@
 [ext_resource type="Texture2D" uid="uid://ju6u7bds4vgy" path="res://sprites/18295.png" id="18_61y8d"]
 [ext_resource type="Texture2D" uid="uid://0j3usw7kji8d" path="res://sprites/18296.png" id="19_8icv6"]
 [ext_resource type="Texture2D" uid="uid://da6vuqjykg4ye" path="res://sprites/18297.png" id="20_mwn6v"]
+[ext_resource type="Script" uid="uid://b8d6ys0dk4lgu" path="res://state_machine.gd" id="22_7ahtn"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ms8fj"]
 animations = [{
@@ -106,7 +107,12 @@ position = Vector2(58, 185.00002)
 scale = Vector2(0.6047414, 0.6759435)
 sprite_frames = SubResource("SpriteFrames_ms8fj")
 animation = &"Walk"
+script = ExtResource("22_7ahtn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(58.5, 204.25)
 shape = SubResource("RectangleShape2D_unmcv")
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("22_7ahtn")
+metadata/_custom_type_script = "uid://b8d6ys0dk4lgu"
