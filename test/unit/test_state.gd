@@ -6,9 +6,10 @@ const SUBJECT_PATH := "res://state_machine/state.gd"
 var StateScript := preload(SUBJECT_PATH)
 var subject: State
 
+
 func before_each() -> void:
 	subject = StateScript.new()
 
+
 func after_each() -> void:
 	subject = null
-

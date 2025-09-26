@@ -23,6 +23,7 @@ mono_crash.*.json
 *.jpg
 *.svg
 sprites/*
+addons/*
 
 # Ignore gitattributes
 .gitattributes
