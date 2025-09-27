@@ -11,4 +11,3 @@ func before_each() -> void:
 
 func after_each() -> void:
 	subject = null
-

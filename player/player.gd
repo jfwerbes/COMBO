@@ -1,5 +1,5 @@
 class_name Player
-extends CharacterBody2D
+extends Character
 
 @onready var state_machine: StateMachine = $"StateMachine"
 @onready var animation: AnimationPlayer = $Animation
